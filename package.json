@@ -1,17 +1,19 @@
 {
-    "name": "employee-tracker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "asciiart-logo": "^0.2.6",
-      "inquirer": "8.2.4",
-      "mysql2": "^2.1.0"
-    }
-  }
-  
+  "name": "llama",
+  "description": "challenge 12 # <Ron’s Gone Wrong>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "inquirer": "8.2.4",
+    "mysql2": "^2.1.0"
+  },
+  "keywords": [],
+
+  "author": "",
+  "license": "ISC"
+}
