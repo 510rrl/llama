@@ -1,20 +1,19 @@
 # llama
 challenge 12
-# <Ron’s Gone Wrong>
+# SQL Challenge: Employee Tracker
 
-## Mobile Accessibile Website
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation?  
-To provide a responsive user experience for communities using either mobile or desktop websites.
+To provide a responsive user experience for employers to access employee information stored in databases.
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-I built this project to practice my refractor code skills and to provide an interactive website for any user, regardless of their mobile phone carrier or desktop brand. 
+I built this project to practice my database skills and work with content management systems (CMS).
 - What problem does it solve?
-
+Managing a company's database through employee names and roles.
 
 - What did you learn?
-
+How to use node.js, inquirer, and mysql.
 
 
 ## Table of Contents (Optional)
@@ -43,6 +42,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
+Help from my bootcamp tutor.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
