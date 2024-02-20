@@ -2,6 +2,8 @@
 challenge 12
 # SQL Challenge: Employee Tracker
 
+https://youtu.be/6PGFHdRdp0I
+Youtube tutorial video demonstrating database usage. ^
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
