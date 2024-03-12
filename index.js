@@ -68,18 +68,7 @@ function loadMainPrompts() {
           name: "Add Department",
           value: "ADD_DEPARTMENT"
         },
-        {
-          name: "Remove Department",
-          value: "REMOVE_DEPARTMENT"
-        },
-        {
-          name: "View Total Utilized Budget By Department",
-          value: "VIEW_UTILIZED_BUDGET_BY_DEPARTMENT"
-        },
-        {
-          name: "Quit",
-          value: "QUIT"
-        }
+      
       ]
     }
   ]).then(res => {
@@ -109,18 +98,6 @@ function loadMainPrompts() {
         break;
       case "VIEW_DEPARTMENTS":
         viewDepartments();
-        break;
-      case "ADD_DEPARTMENT":
-        addDepartment();
-        break;
-      case "REMOVE_DEPARTMENT":
-        removeDepartment();
-        break;
-      case "VIEW_UTILIZED_BUDGET_BY_DEPARTMENT":
-        viewUtilizedBudgetByDepartment();
-        break;
-      case "VIEW_ROLES":
-        viewRoles();
         break;
       case "ADD_ROLE":
         addRole();
