@@ -252,12 +252,7 @@ function updateEmployeeRole() {
               }));
 
               prompt([
-                {
-                  type: "list",
-                  name: "roleId",
-                  message: "Which role do you want to assign the selected employee?",
-                  choices: roleChoices
-                }
+
               ])
                 .then(res => db.updateEmployeeRole(employeeId, res.roleId))
                 .then(() => console.log("Updated employee's role"))
@@ -277,12 +272,7 @@ function updateEmployeeManager() {
       }));
 
       prompt([
-        {
-          type: "list",
-          name: "employeeId",
-          message: "Which employee's manager do you want to update?",
-          choices: employeeChoices
-        }
+
       ])
         .then(res => {
           let employeeId = res.employeeId
@@ -354,29 +344,6 @@ function addRole() {
     })
 }
 
-function removeRole() {
-  db.findAllRoles()
-    .then(([rows]) => {
-      let roles = rows;
-      const roleChoices = roles.map(({ id, title }) => ({
-        name: title,
-        value: id
-      }));
-
-      prompt([
-        {
-          type: "list",
-          name: "roleId",
-          message:
-            "Which role do you want to remove? (Warning: This will also remove employees)",
-          choices: roleChoices
-        }
-      ])
-        .then(res => db.removeRole(res.roleId))
-        .then(() => console.log("Removed role from the database"))
-        .then(() => loadMainPrompts())
-    })
-}
 
 function viewDepartments() {
   db.findAllDepartments()
